@@ -1,0 +1,105 @@
+/*-------------------- GENERALES --------------------*/
+
+html, body{
+    |padding: 0;
+    |margin: 0;
+    height: auto;
+}
+h1, h4, p, a, li{
+    font-family: 'Noto Serif', serif;
+}
+
+
+/*-------------------- HEADER--------------------*/
+
+header{
+    background-color: #fcce09;
+    text-align: center;
+    padding: 30px 0 20px 0;
+
+}
+.espacio{
+    padding: 10px 0;
+}
+header li{
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+}
+
+header a{
+    color:#fff;
+}
+
+.boton{
+    padding: 10px 20px;
+    background-color: #fcba43;
+    color: #fff;
+
+}
+
+
+/*-------------------- HERO --------------------*/
+
+.hero{
+    background-color: #fcce09;
+}
+
+.titulo{
+    text-align: center;
+    padding: 200px 0;
+    color: #fff;
+}
+
+.titulo h1{
+    font-weight: 900;
+}
+
+
+/*-------------------- IAMGENES --------------------*/
+
+.imagenes{
+    padding: 60px 0;
+    background-color: #eaeae9;
+
+}
+
+.imagenes>.row{
+    padding-bottom: 15px;
+}
+
+.bloque{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+.cuadro{
+    border-top: 20px solid #fff;
+    border-bottom: 10px solid #fff;
+}
+
+.texto{
+    text-align: left;
+    padding: 0 20px;
+}
+
+.enlace{
+    padding: 10px 20px;
+    background-color: #fcba43;
+    color: #fff;
+}
+
+.margen{
+    padding: 1px 0;
+}
+
+
+/*-------------------- FOOTER --------------------*/
+
+footer{
+    background-color: #262624;
+    color: #fff;
+    padding: 15px 0 30px 0;
+}

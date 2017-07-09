@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivo y Negativo</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Serif:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ejercicio">
+        <div class="container">
+            <div class="row problema">
+                <p>posNeg</p>
+                <p>Dados 2 valores enteros, a y b, retorna 1 si uno es negativo y otro es positivo. Excepto si el parametro negative es true, entonces retorna 1 solo si ambos son negativos, casi contrario retorna 0.</p>
+            </div>
+            
+            <div class="row text-center">
+                <div class="col-sm-offset-1 col-sm-3 respuesta">
+                    <p>Resultado:</p>
+                    <p id="salida">--</p>
+                </div>
+                <div class="col-sm-3 boton">
+                    <button button type="button" class="btn btn-danger btn-lg" onclick="calcular()">Click</button>
+                </div>
+                <div class="col-sm-3 datos">
+                    <p>Numero A (Positivo o negativo) </p>
+                    <input rows="5" id="numA" placeholder="--">
+                    <p>Numero B (Positivo o negativo) </p>
+                    <input rows="5" id="numB" placeholder="--">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="fondofooter">
+        <div class="container-fluid">
+            <div class="row">
+                <p>Copyright © 2016 · Maryory Chavez · Hecho con Bootstrap</p>
+                <p>¿Quieres ver el codigo? <a href="https://github.com/MaryoryChavez/lc17-ejercicio-7"><b>¡Ingresa a mi Github!</b></a> </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

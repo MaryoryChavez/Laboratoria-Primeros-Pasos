@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz 10</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ejercicio">
+        <div class="container">
+            <div class="row">
+                <p>Haz 10</p>
+                <p>Dados dos enteros, a y b, retorna 1 si uno de los enteros es 10 o si la suma de ambos enteros es 10, casi contrario retorna 0</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-2 numA">
+                   <p>Numero A</p>
+                    <input type="text" class="form-control" id="numA" placeholder="Ingresar numero">
+                </div>
+                <div class="col-sm-2">
+                   <p>Numero B</p>
+                    <input type="text" class="form-control" id="numB" placeholder="Ingresar numero">
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 col-xs-12 text-center">
+                   <button button type="button" class="btn btn-default btn-lg" onclick="calcular()">Click</button>
+               </div>
+                <div class="col-sm-6 text-right">
+                    <p>Resultado:</p>
+                </div>
+                <div class="col-sm-6">
+                    <p id="salida">-</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="fondofooter">
+        <div class="container-fluid">
+            <div class="row">
+                <p>Copyright © 2016 · Maryory Chavez · Hecho con Bootstrap</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

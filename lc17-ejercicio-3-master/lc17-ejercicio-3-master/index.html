@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header class="fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="ejercicio">
+        <div class="container">
+            <div class="row text-center">
+                <h3>Monos...</h3>
+                <p>¿Quieres acercarte a los monos?, son traviesos así que antes de acercarte mucho mejor fijate bien en sus expresiones:</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-offset-2 col-sm-4 monito1">
+                   <div id="mono1">
+                       <img src="images/monopensando.png" alt="">
+                   </div>
+                    <select class="form-control" name="" id="monoA">
+                        <option value="1">Sonrie</option>
+                        <option value="2">Enojado</option>
+                    </select>
+
+                </div>
+                <div class="col-sm-4 monito2">
+                    <div id="mono2">
+                        <img src="images/monopensando.png" alt="">
+                    </div>
+                    <select class="form-control" name="" id="monoB">
+                    <option value="1">Sonrie</option>
+                    <option value="2">Enojado</option>
+                </select>
+
+                </div>
+            </div>
+            <div class="row text-center resultado">
+            <div class="boton">
+                <button button type="button" class="btn btn-default btn-lg" onclick="calcular()">¿Monito?</button>
+            </div>
+                <p>Resultado:</p>
+                <p id="salida"></p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="fondofooter">
+        <div class="container-fluid">
+            <div class="row">
+                <p>Copyright © 2016 · Maryory Chavez · Hecho con Bootstrap</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

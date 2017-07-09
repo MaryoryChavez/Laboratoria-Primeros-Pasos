@@ -1,0 +1,77 @@
+/*-------------------->> HEADER <<--------------------*/
+
+header{
+    height: 250px;
+}
+
+.fondo{
+    background: url('../images/fondo.png') no-repeat;
+    background-size: cover;
+    background-position: 0% 61%;
+}
+
+.logo {
+    text-align: center;
+}
+.logo img{
+    margin-top: 20px;
+    width: 85%;
+}
+
+/*-------------------->> SECTION EJERCICIO <<--------------------*/
+
+.ejercicio{
+    margin-bottom: 40px;
+}
+
+.ejercicio p{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.boton{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.titulo p{
+    font-size: 1.35em;
+    padding-bottom: 20px;
+}
+
+.ejercicio p:nth-child(2){
+    font-size: 2em;
+    
+}
+
+#num21{
+    padding-top: 0px;
+    font-size: 2em;
+}
+
+#igualar{
+    padding-top: 0;
+    font-size: 2em;
+    color: #ef4343;
+    font-weight: bold;
+}
+
+/*-------------------->> SECTION FOOTER <<--------------------*/
+    
+footer{
+    margin-top: 62px;
+}
+
+.fondofooter{
+    background-color: #ffb500;
+}
+
+footer p{
+    |position: absolute;
+    |bottom: 0px;
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.12em;
+}

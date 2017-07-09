@@ -1,0 +1,194 @@
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+body a {
+    transition: 0.5s all;
+}
+
+
+/*----------------HEADER-TOP-------------*/
+
+.header-top {
+    background: #303030;
+    padding: 10px 0px 30px 0px;
+}
+
+.header-top img {
+    float: left;
+    width: 70%;
+    height: 87px;
+}
+
+.cssmenu {
+    float: right;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: right;
+    padding: 25px 0px 0px 0px;
+}
+
+.cssmenu > #nav li {
+    display: inline-block;
+}
+
+.cssmenu > #nav > li > a {
+    color: #bbaeae;
+    display: block;
+    padding: 5px 5px;
+    font-size: 1.1em;
+    margin: 0 10px;
+    text-shadow: 3px 3px 2px grey;
+    text-decoration: none;
+}
+
+.cssmenu > #nav > li > a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*----------------HEADER-------------*/
+
+.header {
+    background: #eeeeee;
+    padding-top: 20px;
+}
+
+.header > .container > p {
+    margin-right: 5px;
+    float: left;
+}
+
+.header > .container > p:nth-child(2) {
+    font-size: 10px;
+    margin: 6px 0px 0px 0px;
+    color: #336699;
+}
+
+.header > .container > .imagenes {
+    display: inline-block;
+}
+
+.header > .container > .imagenes > div {
+    color: #336699;
+    text-align: center;
+}
+
+.header > .container > .imagenes > div > img {
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid #c3c7ca;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+/*----------------SECTION-------------*/
+
+.section {
+    clear: both;
+    padding-top: 20px;
+}
+
+.section .catalogo > li {
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+}
+
+.section img {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid #c3c7ca;
+}
+
+.catalogo p {
+    text-align: center;
+    font-size: 13px;
+    color: #0d77c1;
+    font-weight: bold;
+}
+
+.section .subtitulos {
+    font-weight: bold;
+}
+
+.section .subtitulos>li {
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    color: #0d77c1;
+}
+
+.section .subtitulos p {
+    color: black;
+}
+
+.section .subtitulos>li>img {
+    width: 13px;
+    padding: 0;
+    margin-right: 10px;
+    border: 0;
+}
+
+.section .separador {
+    height: 1px;
+    border: 0;
+    background-color: #e8e7e7;
+}
+
+
+/*----------------FOOTER-------------*/
+
+.footer {
+    background: #585858;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.footer p:nth-child(1) {
+    color: #fff;
+    text-align: left;
+}
+
+.footer p {
+    color: #99907e;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center
+}
+
+.footer .list-foot {
+    text-align: center;
+    color: #ccc4bd;
+}
+
+.footer .list-foot>li {
+    display: inline-block;
+    margin-left: 30px;
+}

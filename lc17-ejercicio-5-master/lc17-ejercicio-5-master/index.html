@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header class="fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="ejercicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-4 col-xs-offset-1 col-xs-5 text-center lahora">
+                    <p>¿Que hora es?</p>
+                    <input type="text" class="form-control" id="hora" placeholder="Ingresa la Hora">
+                </div>
+                <div class="col-xs-5 col-sm-4 text-center cantar">
+                    <p>¿El loro canta?</p>
+                    <form action="">
+                        <label for="" class="radio-inline">
+                            <input type="radio" name="loro" value="1">Si
+                        </label>
+                        <label for="" class="radio-inline">
+                            <input type="radio" name="loro" value="2">No
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="row col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10 text-center resultado">
+                <div class="boton">
+                    <button button type="button" class="btn btn-default btn-lg" onclick="calcular()">Click</button>
+                </div>
+                <p>Resultado:</p>
+                <p id="salida"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="fondofooter">
+        <div class="container-fluid">
+            <div class="row">
+                <p>Copyright © 2016 · Maryory Chavez · Hecho con Bootstrap</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
