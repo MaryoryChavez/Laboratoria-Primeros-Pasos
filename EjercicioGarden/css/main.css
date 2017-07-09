@@ -1,0 +1,99 @@
+@font-face{    
+    font-family:"Van";
+    src: url(../fonts/Van.ttf) format("truetype");
+}
+
+@font-face{
+    font-family:"Morp";
+    src: url(../fonts/Morp.TTF);
+}
+
+@font-face{
+    font-family:"Queen";
+    src: url(../fonts/Queen.ttf);
+}
+
+@font-face{
+    font-family:"Aqua";
+    src: url(../fonts/Aqua.ttf);
+}
+
+html {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background: url(../images/fondo3.jpg) 100%;
+    background-color: black absolute 100%;
+    background-position: cover no-repeat;
+    background-size: 100%;
+}
+
+.page-wrapper{
+    background: url(../images/BannerUp.gif) no-repeat top;
+    background-size: 90%;
+    position: relative;
+    padding:  0 200px 0 80px ;
+    
+}
+
+header h1{
+    
+    background: url(../images/letrero.png) no-repeat top;
+    background-position: center relative;
+    background-size: 100%;
+    margin-top: 10px;
+	display: block;
+    width: 100%;
+    height: 400px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+p{
+    margin-top: 0;
+    font-family: "Aqua";
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3{
+    font-size: 45px;
+    font-family: "Queen";
+    color: #d10a18;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+h3:hover{
+    color:white;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+a:link{
+    font-weight:bold;
+    text-decoration: none;
+    color:#e11d1d
+}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	background: transparent url(../images/bar1.jpg) top left no-repeat; 
+	padding: 10px; 
+	margin-top: 500px; 
+	width: 130px; 
+	}
+
