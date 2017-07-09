@@ -1,0 +1,13 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    position: static;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rosa{background-color: #ed2251;}
+
+.azul{background-color: #3a81ba}
+
+.verde{background-color: #8bab42}

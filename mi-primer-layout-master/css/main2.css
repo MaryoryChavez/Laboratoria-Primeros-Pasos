@@ -1,0 +1,74 @@
+/*---------GENERAL--------*/
+body {
+    text-align: center;
+}
+
+.contenedor {
+    width: 600px;
+    margin: 0px auto;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*---------CABEZERA--------*/
+
+.cabezera img{
+    width: 120px;
+    height: 120px;
+    border-radius: 590px;
+}
+
+.cabezera h2{
+    font-size: 25px;    
+}
+
+/*---------CUERPO--------*/
+
+.cuerpo h3{
+    text-align: left;
+    font-size: 20px;
+}
+
+.cuadro {
+    background-color: grey;
+    margin: 30px;
+    text-align: left;
+    color: white;
+    padding: 15px;
+}
+
+.uno {
+    width: 500px;
+}
+
+.dos {
+    width: 350px;
+}
+
+.tres {
+    width: 190px;
+}
+
+/*---------PIE--------*/
+
+.pie h3{
+    text-align: left;
+    font-size: 20px;
+}
+
+.pie .contenedor2 .images{
+    text-align: left;
+    border:0;
+}
+.pie .contenedor2 .images li{
+    display: inline-block;
+    position: relative;
+    width: 28%;
+    margin: 0px 25px 25px 0px;
+}
+

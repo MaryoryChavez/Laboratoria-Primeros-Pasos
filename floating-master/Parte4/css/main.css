@@ -1,0 +1,36 @@
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.conten {
+    width: 600px;
+    border: 1px solid #cccccc;
+}
+
+.caja {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.uno {
+    background-color: #ffff00;
+}
+
+.dos {
+    background-color: #3a81ba;
+}
+
+.tres {
+    background-color: #ed2251;
+}

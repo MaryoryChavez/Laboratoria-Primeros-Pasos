@@ -1,0 +1,31 @@
+.caja{
+	display: block;
+	position: relative;
+	|border: 1px solid;
+	margin: 0px;
+	padding: 0px;
+}
+.rojo{
+	background-color: #ed462f;
+	width: 400px;
+	height: 400px;
+	position: static;
+	}
+
+.morado{
+	background-color: #752e80;
+    width: 200px;
+	height: 200px;
+	left: 100px;
+	top: -302px;
+	position: relative;
+	margin: -5px;
+}
+.amarillo{
+	background-color: #fff835;
+	width: 100px;
+	height: 100px;
+	top: -497px;
+	left: 95px;
+	position: relative;
+}

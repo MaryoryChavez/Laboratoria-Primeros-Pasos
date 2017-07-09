@@ -1,0 +1,66 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: table;
+    |padding-left: 60px;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    transition: all 0.3s;
+}
+
+nav li a span{
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    background: black;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+nav li a:hover span{
+    opacity: 1;
+}
+
+nav li a:hover{
+    padding-left: 100px;
+}
+
+nav li:nth-child(1) a{
+    background: red;
+    color:red;
+}
+
+nav li:nth-child(2) a{
+    background: blue;
+    color: blue;
+}
+nav li:nth-child(3) a{
+    background: green;
+    color: green;
+}
+nav li:nth-child(4) a{
+    background: yellow;
+    color: yellow;
+}
+
+/* completa tu codigo aqui */

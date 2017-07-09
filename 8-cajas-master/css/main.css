@@ -1,0 +1,39 @@
+.peque {
+    margin: 0px 10px 0px 0px;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.gran{
+    width: 360px;
+    height: 130px;
+    background-color: grey;
+    border: 1px solid black;
+    position: absolute;
+    top: 115px;
+    z-index: 1;
+}
+
+.pqs{
+    position: absolute;
+    z-index: 2;
+    top:128px;
+    left: 20px;
+}
+
+.pqsb{
+    position: absolute;
+    top: 260px;
+}
+
+.peque1{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+    position: absolute;
+    top: 373px;
+}

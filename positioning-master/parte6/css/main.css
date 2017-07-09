@@ -1,0 +1,26 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    |position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.rosa{
+    background-color: #ed2251;
+}
+
+.azul{
+    background-color: #3a81ba;
+    position: absolute;
+    left:208px;
+}
+
+.verde{
+    background-color: #8bab42;
+}
+
+.amarilla{
+    background-color: #ffff00;
+}

@@ -1,0 +1,57 @@
+.contenedor {
+    background-color: #8cb27c;
+    border: 1px solid #8cb27c;
+    width: 800px;
+    height: 440px;
+}
+
+.franja {
+    margin: 20px;
+    border: 1px solid #c5d8bd;
+    width: 94%;
+    height: 92%;
+}
+
+.arco {
+    width: 100px;
+    height: 190px;
+    border: 1px solid #c5d8bd;
+}
+
+.der {
+    margin-top: 100px;
+    float: left;
+}
+
+.izq {
+    border: 1px solid #c5d8bd;
+    margin top: -300x;
+    margin-right: -652px;
+    float: right;
+}
+
+.circulo {
+    border-radius: 90px;
+    border: 1px solid #c5d8bd;
+    width: 150px;
+    height: 150px;
+    margin-left: -350px;
+}
+
+#pelota1 {
+    left: 90px;
+    position: relative;
+    top: 5px;
+}
+
+#pelota2 {
+    position: relative;
+    left: -30px;
+    top: 150px;
+}
+
+#pelota3 {
+    top: -70px;
+    position: relative;
+    right: -70px;
+}

@@ -1,0 +1,132 @@
+/*---------GLOBAL--------*/
+
+*{
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.row:before, .row:after{
+    content:" ";
+    display: table;
+}
+
+.row after{
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*---------GENERALES----------*/
+
+body {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contenedor {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*---------CABEZERA--------*/
+
+.cabezera .no-estilo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabezera .menu {
+    margin: 10px 0;
+    padding: 4px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.cabezera .menu li {
+    display: inline-block;
+    border-right: 1px solid #000;
+}
+
+.cabezera .menu li:last-child {
+    border-right: none;
+}
+
+.cabezera .menu a {
+    display: block;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #111;
+    font-size: 19px;
+}
+
+
+
+/*---------CUERPO--------*/
+
+.cuerpo .descripcion {
+    margin: 0 80px;
+}
+
+.cuerpo .separador-uno {
+    border-color: #ebebeb;
+    width: 50px;
+}
+
+/*---------PIE--------*/
+
+.pie h1 {
+    font-size: 14px;
+    text-align: left;
+}
+
+.pie .separador-dos {
+    border-width: 2px;
+    border-color: black;
+    width: 50px;
+    margin: 0;
+}
+
+
+.pie .coders .lista-coders {
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pie .coders .lista-coders li {
+    display: inline-block;
+    position: relative;
+    width: 28%;
+    margin: 8px;
+    background-color: black;
+}
+
+.pie .coders .lista-coders p {
+    margin: 0px 3px 9px 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color:white;    
+    text-align: right;
+    font-size: 12px;
+}
+
+.pie .coders img{
+    opacity: 0.8;
+    display: block;
+}
+
+.pie .coders img:hover{
+	opacity: 1;
+}

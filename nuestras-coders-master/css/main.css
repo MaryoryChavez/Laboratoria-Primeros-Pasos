@@ -1,0 +1,33 @@
+.conten {
+    width: 670px;
+    margin: inherit;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.lista ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lista ul li {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+}
+
+.lista p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: white;
+}
+
+.lista img {
+    opacity: 0.8;
+    display: block;
+}
